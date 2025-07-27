@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SavoryVerse Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="default-theme">
+  <header>
+    <div class="logo">SavoryVerse</div>
+    <nav>
+      <a href="#" data-section="home">Home</a>
+      <a href="#" data-section="about">About Us</a>
+      <a href="#" data-section="services">Our Services</a>
+      <a href="#" data-section="contact">Contact Us</a>
+      <a href="#" class="cart" data-section="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      <input type="text" class="search-bar" placeholder="Search..." />
+      <button class="search-bar search-btn">Search</button>
+    </nav>
+  </header>
+
+  <main>
+    <aside>
+      <ul>
+        <li data-section="veg">Veg</li>
+        <li data-section="nonveg">Non-Veg</li>
+        <li data-section="seafood">Seafood</li>
+        <li data-section="dessert">Dessert</li>
+        <li data-section="icecream">Ice Cream</li>
+        <li data-section="snacks">Snacks</li>
+        <li data-section="colddrink">Cold Drink</li>
+      </ul>
+    </aside>
+
+    <section id="content" class="fade-in">
+      <h2>Welcome to SavoryVerse!</h2>
+      <p>Click a section to explore our delicious range of offerings.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SavoryVerse. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
